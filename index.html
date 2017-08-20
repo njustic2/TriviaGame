@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+	<html lang="en-us">
+
+		<head>
+
+			<meta charset="UTF-8">
+		
+			<title>Trivia Game</title>
+
+<!-- Bootstrap Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Link to google fonts -->
+			<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+
+<!-- CSS Sheet -->
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+		</head>
+
+		<body>
+	
+<!-- The first row on the page, it displays the title and the and the questions -->
+			<!-- Designates this div as a row, everything within will fit on this row -->
+			<div class="row">
+				<!-- Designates an empty column at the left of the display -->
+				<div class="col-md-1"></div>
+				<!-- Designates a large column next to the empty column. Everything within fits in this column -->
+				<div class="col-md-7">
+					<!-- This displays the title -->
+					<h1 class="title"><span id="title"></span></h1>
+					<!-- This displays the current question -->
+					<h1 class="question"><span id="question"></span></h1>
+				</div>
+				<!-- This designates a column left of the center column that streaches to the edge of the page -->
+				<div class="col-md-4">
+					<!-- This displays the timer -->
+					<h1 class="timer"><span id="timer"></span></h1>
+				</div>
+			</div>
+
+<!-- The second row of the page, it isplays the start button, the first question option, and the number of correct answers.-->
+			<div class="row">
+				
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<h1 class="start"><span id="start"></span></h1>
+					<p class="answerA"><span id="answerA"></span></p>					
+				</div>
+				<div class="col-md-1"></div>
+			</div>	
+
+<!-- The third row of the page, it displays the second question option and the number of wrong answers -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<p class="answerB"><span id="answerB"></span></p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>	
+
+<!-- The fourth row of the page, it displays the third question option and the number of missed questions -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<p class="answerC"><span id="answerC"></span></p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+
+<!-- The fith row of the page, it displays the fourth question option and a congragulatory message -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<p class="answerD"><span id="answerD"></span></p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>		
+
+<!-- Link to jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<!-- Link to my javaScript file -->
+		<script src="assets/javascript/app.js"></script>
+
+		</body>
+
+	</html>
