@@ -17,7 +17,7 @@
   
   var questionArray = [ 	//An array of objects. Each object has properties (question and answers) and values(the string containing the words in this case)
   	
-     { // { questA: {	// Position 0 of questionArray with a key of questA declaring an object that contains questions and answers.
+     { // Position 0 of questionArray with a key of questA declaring an object that contains questions and answers.
 		question: "What is the shortest unit of measurment?", 	// A Question to be displayed in the upper left corner
 		answerA: "A quark pair",	// Questions that appear in order in the center bottom of the screen
   		answerB: "A planck length",
@@ -26,28 +26,36 @@
 		correctAnswer: "A planck length"	// The correct answer that can be compared to the the chosen answer in the checkAnswer function.
   	}, 
 
-    {// {questB:{
+    {
+    	question: " Which talks about Geological chemistry ?",
+    	answerA: " The hardest emelent in the table of chemicals",
    		answerB: "An ongoing chemical reaction where hydrogen is turned into helium",
   		answerC: "The star that is nearest to earth",
   		answerD: "All of the above",
      	correctAnswer: "All of the above"
   	},
   
-  	{// {questC: {
+  	{
+  		question: "What is a quantum superposition ?",
+  		answerA: "A thought experiment that represents the paridoxial nature of quantum superposition.",
 		answerB: "Based on the Greek myth; Opening Pandora's box to see if the cat is alive or dead represents taking a seemingly innocent and tiny action that ends up having all consuming and disatorous concequences.",
   		answerC: "Marie Curie's short term lab assistent's cat, who was unintentianaly (and unfortunatly for the cat), instramental in the discovery of radiation.",
   		answerD: "When the Cromulens show up on earth, and force the planet to compete in an inter-planitary version of who's got talent, in episode 5, season 1 of Rick and Morty (Get Schwifty). Shrodinger's Cat was the name of one of the more unique bands that competed against earth and ultimatly lost and got their planet destroyed.",
  		correctAnswer: "A thought experiment that represents the paridoxial nature of quantum superposition.",	
   	},
   
-  	{// {questD: {
+  	{
+  		question: "The guinius who solved the best solution to a problem in a movie ?",
+  		answerA: "Mike Tyson",
   		answerB: "Dr. Richard Dawkins",
   		answerC: "Neil Degrasse Tyson",
   		answerD: "Steven Hawkins",
  		correctAnswer: "Neil Degrasse Tyson",
   	},
   
-  	{// {questF: {
+  	{
+  		question: "What did certain NASA like astronauts do ?",
+  		answerA: "Walk the moon",
   		answerB: "NASA scientists created a machine that was temperaraly attached to the satalite in a subsequent mission in 1993, that meticulously re-ground the main lense to componsate for the warping that occurred during launch",
   		answerC: "The focusing proplem seemed to just 'fix itself'. One of the many misteries of space.",
   		answerD: "Performing a record setting 5 space walks in 5 days, astronauts retrofitted the telescope with software and hardware that compensated for the miscalculation in the design of convex angle of the main telescope lense.",
